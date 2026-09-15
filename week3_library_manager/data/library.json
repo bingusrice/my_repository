@@ -1,0 +1,50 @@
+{
+  "books": [
+    {
+      "isbn": "9788966260959",
+      "title": "파이썬 코딩의 기술",
+      "author": "브렛 슬라킨",
+      "status": "loaned"
+    },
+    {
+      "isbn": "9781492056355",
+      "title": "Fluent Python",
+      "author": "Luciano Ramalho",
+      "status": "available"
+    },
+    {
+      "isbn": "88043345242",
+      "title": "노인과 바다",
+      "author": "어니스트 헤밍웨이",
+      "status": "loaned"
+    }
+  ],
+  "loans": [
+    {
+      "loan_id": "b0bba66975ea",
+      "book_isbn": "9788966260959",
+      "borrower": "student01",
+      "borrowed_at": "2026-09-15T01:24:33.684739+00:00",
+      "due_date": "2026-09-22",
+      "returned_at": null,
+      "borrowed_date": "2026-09-15",
+      "returned_date": null,
+      "extended_days": 0,
+      "is_overdue_fee_paid": true,
+      "paid_fee": 10000
+    },
+    {
+      "loan_id": "cdaef116482a",
+      "book_isbn": "88043345242",
+      "borrower": "이도형",
+      "borrowed_at": "2026-09-15T04:41:56.057144+00:00",
+      "due_date": "2026-09-22",
+      "returned_at": null,
+      "borrowed_date": "2026-09-15",
+      "returned_date": null,
+      "extended_days": 0,
+      "is_overdue_fee_paid": true,
+      "paid_fee": 36000
+    }
+  ]
+}
