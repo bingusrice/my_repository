@@ -17,6 +17,18 @@
       "title": "노인과 바다",
       "author": "어니스트 헤밍웨이",
       "status": "loaned"
+    },
+    {
+      "isbn": "97885338282308",
+      "title": "날개",
+      "author": "이상",
+      "status": "loaned"
+    },
+    {
+      "isbn": "979797675625",
+      "title": "82년생 김지영",
+      "author": "김지영",
+      "status": "available"
     }
   ],
   "loans": [
@@ -45,6 +57,32 @@
       "extended_days": 0,
       "is_overdue_fee_paid": true,
       "paid_fee": 36000
+    },
+    {
+      "loan_id": "499e02002667",
+      "book_isbn": "97885338282308",
+      "borrower": "이도형",
+      "borrowed_at": "2026-09-15T11:45:36.488743+00:00",
+      "due_date": "2026-09-22",
+      "returned_at": null,
+      "borrowed_date": "2026-09-15",
+      "returned_date": null,
+      "extended_days": 0,
+      "is_overdue_fee_paid": false,
+      "paid_fee": 0
+    },
+    {
+      "loan_id": "362f674b31be",
+      "book_isbn": "979797675625",
+      "borrower": "서지섭",
+      "borrowed_at": "2026-09-16T14:53:14.948576+00:00",
+      "due_date": "2026-09-30",
+      "returned_at": "2026-09-16T14:55:13.533927+00:00",
+      "borrowed_date": "2026-09-16",
+      "returned_date": "2026-10-05",
+      "extended_days": 7,
+      "is_overdue_fee_paid": true,
+      "paid_fee": 10000
     }
   ]
 }
